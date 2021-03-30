@@ -31,17 +31,17 @@
 
                         <div class="form_input">
                             <label for="full_name">Full Name</label>
-                            <input type="text" id="full_name" name="user_name" placeholder="Required">
+                            <input type="text" id="full_name" name="user_name" placeholder="Required" required>
                         </div>
 
                         <div class="form_input">
                             <label for="email">Email Address</label>
-                            <input type="email" id="email" name="user_email" placeholder="Required">
+                            <input type="email" id="email" name="user_email" placeholder="Required" required>
                         </div>
                         
                         <div class="form_input">
                             <label for="number">Phone Number</label>
-                            <input type="number" id="number" name="user_number" placeholder="US phone number ONLY">
+                            <input type="tel" id="number" name="user_number" placeholder="US phone number ONLY">
                         </div>
 
                         <div class="form_input">
@@ -130,23 +130,27 @@
                             <p>Select newsletters you would like to receive.</p>
 
                             
-                            <input type="checkbox" value="html_news" name="htmlnews">
-                            <label id="html_news">HTML News</label><br><br>
+                            <input type="checkbox" id="html_news" value="html_news" name="htmlnews">
+                            <label for="html_news">HTML News</label><br><br>
 
-                            <input type="checkbox" value="css_news" name="cssnews">
-                            <label id="css_news">CSS News</label><br><br>
+                            <input type="checkbox" id="css_news" value="css_news" name="cssnews">
+                            <label for="css_news">CSS News</label><br><br>
                             
-                            <input type="checkbox" value="js_news" name="jsnews">
-                            <label id="js_news">Javascript News</label><br><br><br>
+                            <input type="checkbox" id="js_news" value="js_news" name="jsnews">
+                            <label for="js_news">Javascript News</label><br><br><br>
                             
 
                             <p>Newsletter format</p>
-                                <input type="radio" value="html_" name="news_letter_format">
-                                <label id="html_">HTML</label><br><br>
-                                <input type="radio" value="plain_txt" name="news_letter_format">
-                                <label id="plain_txt">Plain Text</label>
+
+                            <input type="radio" id="html_" value="html_" name="news_letter_format">
+                            <label for="html_">HTML</label><br><br>
+                            <input type="radio" id="plain_txt" value="plain_txt" name="news_letter_format">
+                            <label for="plain_txt">Plain Text</label>
+
+                            <br><br>
                             
-                            <p>Other topics you'd like to hear about</p><br>
+                            <p>Other topics you'd like to hear about</p>
+
                             <textarea id="comment" name="user_comment"></textarea>                
                                             
                             <button type="submit">Sign Up</button>
