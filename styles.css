@@ -134,6 +134,7 @@ textarea {
    margin-bottom:20px;
    border-radius:10px;
    cursor: pointer;
+   font-family:Merriweather, sans-serif ;
 }
 
 .form_input_zipcode{
