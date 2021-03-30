@@ -14,16 +14,6 @@ header{
    font-family: Chango, sans-serif;
 }
 
-.signup{
-   max-width: 90vh;
-   margin:auto;
-}
-
-.signup p{
-   padding:0px 20px;
-
-}
-
 body{
    margin:0;
    font-family: Merriweather, sans-serif;
@@ -100,7 +90,9 @@ footer p{
 }
 
 .signup {
-   border-bottom:10px solid black ; 
+   border-bottom:10px solid black; 
+   max-width: 90vh;
+   margin:auto;
 }
 
 .signup h2{
@@ -109,6 +101,11 @@ footer p{
 
 .content{
    margin:0 20px;
+}
+
+.signup p{
+   padding:0px 20px;
+
 }
 
 input[type="text"],
