@@ -43,11 +43,11 @@ label{
    color:rgb(73, 73, 73)
 
 }
-
+/*
 textarea ::placeholder{
    text-align:left;
 }
-
+*/
 p{
    color:rgb(73, 73, 73)
 }
@@ -82,7 +82,6 @@ footer p{
 
 .info{
    border-top:black solid 5px;
-
 }
 
 .info legend{
